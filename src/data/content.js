@@ -17,9 +17,9 @@ export const siteContent = {
     quote: '"אני מגיע מהצמתים שבהם ההנדסה פוגשת את הנפש. עם השכלה בהנדסה, מינהל עסקים ופסיכולוגיה — אני בוחן עסקים וקריירות כמערכות."',
     yearsExperience: 25,
     companies: [
-      { name: 'Visa', role: 'סמנכ"ל' },
-      { name: 'AIG', role: 'סמנכ"ל' },
-      { name: 'טלכלל', role: 'סמנכ"ל' }
+      { name: 'ק.נ.מ', role: 'מנהל כללי' },
+      { name: 'טלכלל', role: 'מנהל כללי' },
+      { name: 'VISA, AIG', role: 'סמנכ"ל' }
     ],
     whyNotCoaching: {
       title: 'למה לא רק קואצ׳ינג?',
