@@ -11,13 +11,13 @@ const HeroSection = () => {
   const [content, setContent] = useState(() => {
     const loadedContent = getContent()
     return loadedContent?.hero || {
-      label: 'יועץ אסטרטגי',
+      label: 'אפי רוזנברג - יועץ אסטרטגי',
       rotatingWords: ['בהירות', 'מיקוד', 'החלטה', 'אסטרטגיה'],
-      subtitle: 'היא כוח.',
+      subtitle: 'שווה כוח.',
       description: 'לשעבר מנכ"ל וסמנכ"ל ב-Visa, AIG וטלכלל',
       statement: 'אני לא כאן לעודד — אני כאן לבנות.',
       ctaButton: 'פגישת אסטרטגיה',
-      ctaSubtext: '30 דקות. בלי התחייבות.',
+      ctaSubtext: '  ללא התחייבות.',
       imageUrl: 'https://i.ibb.co/BVhjVnR1/1.png'
     }
   })
