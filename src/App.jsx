@@ -15,6 +15,7 @@ function App() {
           <div className="min-h-screen bg-black text-white">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/admin" element={<Navigate to="/admin/login" replace />} />
               <Route path="/admin/login" element={<AdminLogin />} />
               <Route path="/admin/dashboard" element={<AdminDashboard />} />
               <Route path="/admin/visual-editor" element={<VisualEditor />} />
